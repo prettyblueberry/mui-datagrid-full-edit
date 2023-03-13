@@ -12,13 +12,14 @@ You can see it on examples for now.
 
 If you feel love it, please star its GitHub repository.
 
-If you don't, please report an issue on GitHub to improve the module.  
+If you don't, please report an issue on GitHub to improve the module.
+
+[GitHub Repository](https://github.com/prettyblueberry/mui-datagrid-full-edit)
 
 # Examples
 ## mui-datagrid-full-edit-sample1
-[View on Web](https://mysrxu.csb.app/)
 
-[View on CodeSandbox](https://codesandbox.io/s/mui-datagrid-full-edit-sample1-mysrxu)
+[View on CodeSandbox](https://codesandbox.io/s/github/prettyblueberry/mui-datagrid-full-edit-sample1)
 
 [View on GitHub](https://github.com/prettyblueberry/mui-datagrid-full-edit-sample1)
 
