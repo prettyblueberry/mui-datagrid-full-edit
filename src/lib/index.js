@@ -10,7 +10,7 @@ import {
     GridActionsCellItem,
 } from "@mui/x-data-grid";
 
-import DefaultToolbar from "./DefaultToolbar";
+import DefaultToolbar from "./components/DefaultToolbar";
 import {useEffect} from "react";
 
 function FullFeaturedCrudGrid({columns, rows, defaultPageSize, onSaveRow, onDeleteRow, createRowData, ...props}) {

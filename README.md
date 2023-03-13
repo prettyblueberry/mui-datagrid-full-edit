@@ -9,6 +9,11 @@ Sorry, the detail content is coming soon.
 
 You can see it on examples for now.
 
+
+If you feel love it, please star its GitHub repository.
+
+If you don't, please report an issue on GitHub to improve the module.  
+
 # Examples
 ## mui-datagrid-full-edit-sample1
 [View on Web](https://mysrxu.csb.app/)
