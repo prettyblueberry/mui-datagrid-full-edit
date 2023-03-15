@@ -1,4 +1,12 @@
 # mui-datagrid-full-edit
+
+[![NPM Version](https://img.shields.io/npm/v/mui-datagrid-full-edit.svg)](https://www.npmjs.com/package/mui-datagrid-full-edit)
+[![NPM Downloads](https://img.shields.io/npm/dm/mui-datagrid-full-edit.svg)](https://www.npmjs.com/package/mui-datagrid-full-edit)
+[![NPM License](https://img.shields.io/npm/l/mui-datagrid-full-edit.svg?style=flat)](https://github.com/prettyblueberry/mui-datagrid-full-edit/blob/main/LICENSE)
+
+[//]: # ([![npm]&#40;https://img.shields.io/github/stars/prettyblueberry/mui-datagrid-full-edit.svg&#41;]&#40;https://github.com/prettyblueberry/mui-datagrid-full-edit&#41;)
+[//]: # ([![fork]&#40;https://img.shields.io/github/forks/prettyblueberry/mui-datagrid-full-edit.svg&#41;]&#40;https://github.com/prettyblueberry/mui-datagrid-full-edit/fork&#41;)
+
 **mui-datagrid-full-edit** is a customized version of "x-mui-datagrid" to make editing easier.
 
 You can experience the best mui-datagrid  which is very **simple** to use but with **full functions**.
