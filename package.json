@@ -4,6 +4,7 @@
   "description": "Customized a x-mui-datagrid component to to make editing easier",
   "private": false,
   "repository": "https://github.com/prettyblueberry/mui-datagrid-full-edit.git",
+  "homepage": "https://github.com/prettyblueberry/mui-datagrid-full-edit/blob/main/README.md",
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
