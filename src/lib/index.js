@@ -67,7 +67,7 @@ function FullFeaturedCrudGrid({columns, rows, defaultPageSize, onSaveRow, onDele
         if(!updatedRow.isNew) updatedRow.isNew = false;
         const oldRow = internalRows.find((r)=>r.id === updatedRow.id);
         setInternalRows(internalRows.map((row) => (row.id === newRow.id ? updatedRow : row)));
-        onSaveRow(updatedRow.id, updatedRow, internalRows, oldRow);
+        onSaveRow(updatedRow.id, updatedRow, oldRow, internalRows);
         return updatedRow;
     };
 
@@ -150,10 +150,10 @@ function FullFeaturedCrudGrid({columns, rows, defaultPageSize, onSaveRow, onDele
 
 FullFeaturedCrudGrid.defaultProps = {
     //action
-    onSaveRow: (id, updatedRow, rows, oldRow)=>{
+    onSaveRow: (id, updatedRow/*, oldRow, rows*/)=>{
         console.log("save row", updatedRow);
     },
-    onDeleteRow: (id, oldRow, rows) => {
+    onDeleteRow: (id, oldRow/*, rows*/) => {
         console.log("delete row", oldRow);
     },
 

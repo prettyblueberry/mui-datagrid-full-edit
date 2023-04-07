@@ -15,7 +15,7 @@ var _Save = _interopRequireDefault(require("@mui/icons-material/Save"));
 var _Close = _interopRequireDefault(require("@mui/icons-material/Close"));
 var _xDataGrid = require("@mui/x-data-grid");
 var _DefaultToolbar = _interopRequireDefault(require("./components/DefaultToolbar"));
-const _excluded = ["columns", "rows", "defaultPageSize", "onSaveRow", "onDeleteRow", "createRowData"];
+const _excluded = ["columns", "rows", "defaultPageSize", "onSaveRow", "onDeleteRow", "createRowData", "onProcessRowUpdateError"];
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
@@ -34,7 +34,8 @@ function FullFeaturedCrudGrid(_ref) {
       defaultPageSize,
       onSaveRow,
       onDeleteRow,
-      createRowData
+      createRowData,
+      onProcessRowUpdateError
     } = _ref,
     props = _objectWithoutProperties(_ref, _excluded);
   const [internalRows, setInternalRows] = React.useState(rows);
@@ -83,7 +84,7 @@ function FullFeaturedCrudGrid(_ref) {
     if (!updatedRow.isNew) updatedRow.isNew = false;
     const oldRow = internalRows.find(r => r.id === updatedRow.id);
     setInternalRows(internalRows.map(row => row.id === newRow.id ? updatedRow : row));
-    onSaveRow(updatedRow.id, updatedRow, internalRows, oldRow);
+    onSaveRow(updatedRow.id, updatedRow, oldRow, internalRows);
     return updatedRow;
   };
   const appendedColumns = [...columns, {
@@ -137,6 +138,7 @@ function FullFeaturedCrudGrid(_ref) {
     onRowEditStart: handleRowEditStart,
     onRowEditStop: handleRowEditStop,
     processRowUpdate: processRowUpdate,
+    onProcessRowUpdateError: onProcessRowUpdateError,
     components: {
       Toolbar: _DefaultToolbar.default
     },
@@ -161,11 +163,14 @@ function FullFeaturedCrudGrid(_ref) {
 }
 FullFeaturedCrudGrid.defaultProps = {
   //action
-  onSaveRow: (id, updatedRow, rows, oldRow) => {
+  onSaveRow: (id, updatedRow, oldRow, rows) => {
     console.log("save row", updatedRow);
   },
   onDeleteRow: (id, oldRow, rows) => {
     console.log("delete row", oldRow);
+  },
+  onProcessRowUpdateError: error => {
+    console.error(error);
   },
   initialState: {
     columnVisibilityModel: {

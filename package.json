@@ -1,6 +1,6 @@
 {
   "name": "mui-datagrid-full-edit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Customized a x-mui-datagrid component to to make editing easier",
   "private": false,
   "repository": "https://github.com/prettyblueberry/mui-datagrid-full-edit.git",
