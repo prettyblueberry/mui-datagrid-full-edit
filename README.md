@@ -14,7 +14,9 @@
 
 It is an easy way of `@mui/x-data-grid`. If you're thinking `@mui/x-data-grid` is good for your admin page but difficult a bit, `mui-datagrid-full-edit` would be the best choice for you. 
 
-You can experience a good react datagrid which is very **simple** to use but with **full functions**.
+You can experience a good react datagrid which is very **simple** to use but with **full functions**. By default, the grid has a paginator and abilities like hide-column, export-as-CSV, advanced-filters.
+
+`export-as-excel` is coming soon. `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide it by license key, but `mui-datagrid-full-edit` will provide it without any license key. 
 
 ## How to Use
 
