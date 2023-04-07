@@ -20,6 +20,13 @@ You can experience a good react datagrid which is very **simple** to use but wit
 
 ## How to Use
 
+## Examples
+### mui-datagrid-full-edit-sample1
+
+[View on CodeSandbox](https://codesandbox.io/s/github/prettyblueberry/mui-datagrid-full-edit-sample1)
+
+[View on GitHub](https://github.com/prettyblueberry/mui-datagrid-full-edit-sample1)
+
 ### Install
 
 ```bash
@@ -203,14 +210,6 @@ Here is an example.
 [@mui/x-data-grid](https://www.npmjs.com/package/@mui/x-data-grid) is a data grid library for React users, created by the Material UI team. It features powerful filtering, sorting, and pagination functionality, as well as customizable column headers and cell rendering. Its API is extremely flexible, enabling users to implement various use cases without much difficulty. The library is built with performance in mind, making it an excellent choice for handling large datasets or complex UI scenarios.
 
 The documentation of `@mui/x-data-grid` is [here](https://mui.com/x/react-data-grid/). While reading, please remember that it is `@mui/x-data-grid`, not `@mui/x-data-grid-pro` or `@mui/x-data-grid-premium`.
-
-
-## Examples
-### mui-datagrid-full-edit-sample1
-
-[View on CodeSandbox](https://codesandbox.io/s/github/prettyblueberry/mui-datagrid-full-edit-sample1)
-
-[View on GitHub](https://github.com/prettyblueberry/mui-datagrid-full-edit-sample1)
 
 
 ## Please be a contributor !
