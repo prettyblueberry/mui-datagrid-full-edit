@@ -8,7 +8,7 @@
 [//]: # ([![npm]&#40;https://img.shields.io/github/stars/prettyblueberry/mui-datagrid-full-edit.svg&#41;]&#40;https://github.com/prettyblueberry/mui-datagrid-full-edit&#41;)
 [//]: # ([![fork]&#40;https://img.shields.io/github/forks/prettyblueberry/mui-datagrid-full-edit.svg&#41;]&#40;https://github.com/prettyblueberry/mui-datagrid-full-edit/fork&#41;)
 
-# Overview
+## Overview
 
 `mui-datagrid-full-edit` is a full functioned grid component with CRUD. But you can use it very simply with few props settings.
 
@@ -16,9 +16,9 @@ It is an easy way of `@mui/x-data-grid`. If you're thinking `@mui/x-data-grid` i
 
 You can experience a good react datagrid which is very **simple** to use but with **full functions**.
 
-# How to Use
+## How to Use
 
-## Install
+### Install
 
 ```bash
 $ npm install --save mui-datagrid-full-edit
@@ -28,7 +28,7 @@ or
 $ yarn add mui-datagrid-full-edit
 ```
 
-## Simple Usage
+### Simple Usage
 Here is an example of `mui-datagrid-full-edit`.
 
 ```javascript
@@ -46,7 +46,7 @@ import FullEditDataGrid from "mui-datagrid-full-edit";
 ```
 *columns*, *rows*, *onSaveRow*, *onDeleteRow*, *createRowData* is required props.
 
-### Props
+#### Props
 - `columns` (Array): Definition of grid header. It is same as `@mui/x-data-grid`and the documentation is [here](https://mui.com/x/react-data-grid/column-definition/).
 
     Here is an example of `columns`.
@@ -180,7 +180,7 @@ import FullEditDataGrid from "mui-datagrid-full-edit";
   ```
   
 
-## Advanced Usage
+### Advanced Usage
 If you want more functions in the component, you can use any props of `@mui/x-data-grid` on this component element.
 
 In this case, you need to know props of `@mui/data-grid` in more detail [here](https://mui.com/x/api/data-grid/data-grid/).
@@ -196,22 +196,22 @@ Here is an example.
 />
 ```
 
-### @mui/x-data-grid
+#### @mui/x-data-grid
 
 [@mui/x-data-grid](https://www.npmjs.com/package/@mui/x-data-grid) is a data grid library for React users, created by the Material UI team. It features powerful filtering, sorting, and pagination functionality, as well as customizable column headers and cell rendering. Its API is extremely flexible, enabling users to implement various use cases without much difficulty. The library is built with performance in mind, making it an excellent choice for handling large datasets or complex UI scenarios.
 
 The documentation of `@mui/x-data-grid` is [here](https://mui.com/x/react-data-grid/). While reading, please remember that it is `@mui/x-data-grid`, not `@mui/x-data-grid-pro` or `@mui/x-data-grid-premium`.
 
 
-# Examples
-## mui-datagrid-full-edit-sample1
+## Examples
+### mui-datagrid-full-edit-sample1
 
 [View on CodeSandbox](https://codesandbox.io/s/github/prettyblueberry/mui-datagrid-full-edit-sample1)
 
 [View on GitHub](https://github.com/prettyblueberry/mui-datagrid-full-edit-sample1)
 
 
-# Please be a contributor !
+## Please be a contributor !
 This module always should be integrated with the latest version of `@mui/x-data-grid`.
 
 And it aims to be not only easy way of `@mui/x-data-grid`, but also good abilities of `@mui/x-data-grid-pro` and `@mui/x-data-grid-premium`.
@@ -220,7 +220,7 @@ So if you have a good idea. Please feel free to make a **pull request** and [an 
 
 GitHub Repository: [https://github.com/prettyblueberry/mui-datagrid-full-edit](https://github.com/prettyblueberry/mui-datagrid-full-edit)
 
-# Author: Blueberry
+## Author: Blueberry
 [Blueberry's GitHub](https://github.com/prettyblueberry)
 
 [Contact Blueberry](https://form.jotform.com/230442827812353)
