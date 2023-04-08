@@ -213,7 +213,7 @@ The documentation of `@mui/x-data-grid` is [here](https://mui.com/x/react-data-g
 
 
 ## Please be a contributor !
-This module always should be integrated with the latest version of `@mui/x-data-grid`.
+This module is always integrated with the latest version of `@mui/x-data-grid`. But `@mui/x-data-grid` might be updated and I might miss it. So I want your help.
 
 And it aims to be not only easy way of `@mui/x-data-grid`, but also good abilities of `@mui/x-data-grid-pro` and `@mui/x-data-grid-premium`.
 
