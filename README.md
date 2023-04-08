@@ -23,9 +23,9 @@ You can experience a good react datagrid which is very **simple** to use but wit
 ### Examples
 #### mui-datagrid-full-edit-sample1
 
-[View on CodeSandbox](https://codesandbox.io/s/github/prettyblueberry/mui-datagrid-full-edit-sample1)
+[View sample1 on CodeSandbox](https://codesandbox.io/s/github/prettyblueberry/mui-datagrid-full-edit-sample1)
 
-[View on GitHub](https://github.com/prettyblueberry/mui-datagrid-full-edit-sample1)
+[View sample1 on GitHub](https://github.com/prettyblueberry/mui-datagrid-full-edit-sample1)
 
 ### Install
 
