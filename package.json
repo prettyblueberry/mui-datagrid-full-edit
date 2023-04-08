@@ -16,8 +16,9 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "core-js": "^3.29.1",
     "web-vitals": "^2.1.4",
-    "core-js": "^3.29.1"
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",

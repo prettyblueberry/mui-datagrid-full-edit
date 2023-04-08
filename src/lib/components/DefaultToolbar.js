@@ -1,13 +1,18 @@
+import * as React from "react";
 import {
     GridRowModes,
     GridToolbarColumnsButton,
     GridToolbarContainer,
-    GridToolbarDensitySelector, GridToolbarExport,
-    GridToolbarFilterButton, GridToolbarQuickFilter
+    GridToolbarDensitySelector,
+    GridToolbarExportContainer,
+    GridCsvExportMenuItem,
+    GridPrintExportMenuItem,
+    GridToolbarFilterButton,
+    GridToolbarQuickFilter
 } from "@mui/x-data-grid";
+import GridExcelExportMenuItem from "./GridExcelExportMenuItem";
 import Button from "@mui/material/Button";
 import AddIcon from "@mui/icons-material/Add";
-import * as React from "react";
 
 function DefaultToolbar(props) {
     const {rows, setRows, setRowModesModel, columns, createRowData } = props;
@@ -34,7 +39,11 @@ function DefaultToolbar(props) {
             <GridToolbarColumnsButton />
             <GridToolbarFilterButton />
             <GridToolbarDensitySelector />
-            <GridToolbarExport />
+            <GridToolbarExportContainer>
+                <GridExcelExportMenuItem columns={columns} />
+                <GridCsvExportMenuItem />
+                <GridPrintExportMenuItem />
+            </GridToolbarExportContainer>
             <Button color="primary" startIcon={<AddIcon />} onClick={handleClick}>
                 Add record
             </Button>
