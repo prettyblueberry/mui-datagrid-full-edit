@@ -1,3 +1,10 @@
+1.1.0 / 2023-04-09
+==================
+
+  * Add export-excel-button in toolbar
+  * Init test environment
+  * Update Readme
+
 1.0.5 / 2023-04-07
 ==================
 

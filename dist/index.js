@@ -163,10 +163,10 @@ function FullFeaturedCrudGrid(_ref) {
 }
 FullFeaturedCrudGrid.defaultProps = {
   //action
-  onSaveRow: (id, updatedRow, oldRow, rows) => {
+  onSaveRow: (id, updatedRow /*, oldRow, rows*/) => {
     console.log("save row", updatedRow);
   },
-  onDeleteRow: (id, oldRow, rows) => {
+  onDeleteRow: (id, oldRow /*, rows*/) => {
     console.log("delete row", oldRow);
   },
   onProcessRowUpdateError: error => {

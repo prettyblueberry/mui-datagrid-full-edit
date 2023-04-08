@@ -1,9 +1,13 @@
 {
   "name": "mui-datagrid-full-edit",
-  "version": "1.0.5",
-  "description": "Customized a x-mui-datagrid component to to make editing easier",
+  "version": "1.1.0",
+  "description": "A full functioned react MUI grid component with CRUD and an easy way of @mui/x-data-grid",
   "private": false,
   "repository": "https://github.com/prettyblueberry/mui-datagrid-full-edit.git",
+  "author": {
+    "name": "Blueberry",
+    "url": "https://github.com/prettyblueberry"
+  },
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -16,7 +20,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "core-js": "^3.29.1",
-    "web-vitals": "^2.1.4",
     "xlsx": "^0.18.5"
   },
   "scripts": {
@@ -51,13 +54,20 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
-  "author": "Blueberry",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "keywords": [
     "datagrid",
     "grid",
     "x-data-grid",
+    "export-excel",
+    "export-xlsx",
+    "export-csv",
+    "excel",
+    "xlsx",
+    "csv",
+    "filter",
+    "toolbar",
     "mui",
     "material",
     "material-ui",

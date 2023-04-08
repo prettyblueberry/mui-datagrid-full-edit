@@ -14,9 +14,9 @@
 
 It is an easy way of `@mui/x-data-grid`. If you're thinking `@mui/x-data-grid` is good for your admin page but difficult a bit, `mui-datagrid-full-edit` would be the best choice for you.
 
-You can experience a good react datagrid which is very **simple** to use but with **full functions**. By default, the grid has a paginator and abilities like hide-column, export-as-CSV, advanced-filters.
+You can experience a good react data grid which is very **simple** to use but with **full functions**. By default, the grid has a paginator and abilities like hide-column, export-as-CSV, export-as-excel, advanced-filters.
 
-`export-as-excel` is coming soon. `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide it by license key, but `mui-datagrid-full-edit` will provide it without any license key.
+> `mui-datagrid-full-edit`'s toolbar has an export button to download data of grid as an `Excel` file (\*.`xlsx`). `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide it by license key, but `mui-datagrid-full-edit` provides it without any license key.
 
 ## How to Use
 
@@ -58,7 +58,7 @@ import FullEditDataGrid from "mui-datagrid-full-edit";
 />
 ```
 
-_columns_, _rows_, _onSaveRow_, _onDeleteRow_, _createRowData_ is required props.
+> _columns_, _rows_, _onSaveRow_, _onDeleteRow_, _createRowData_ are required props.
 
 #### Props
 
@@ -222,9 +222,9 @@ The documentation of `@mui/x-data-grid` is [here](https://mui.com/x/react-data-g
 
 This module is always integrated with the latest version of `@mui/x-data-grid`. But `@mui/x-data-grid` might be updated and I might miss it. So I want your help.
 
-And it aims to be not only easy way of `@mui/x-data-grid`, but also good abilities of `@mui/x-data-grid-pro` and `@mui/x-data-grid-premium`.
+And it aims to be not only easy way of `@mui/x-data-grid`, but also having useful abilities of `@mui/x-data-grid-pro` and `@mui/x-data-grid-premium`.
 
-So if you have a good idea. Please feel free to make a **pull request** and [an issue](https://github.com/prettyblueberry/mui-datagrid-full-edit/issues/new).
+> So, if you have a good idea, please feel free to make a **pull request** and [an issue](https://github.com/prettyblueberry/mui-datagrid-full-edit/issues/new).
 
 GitHub Repository: [https://github.com/prettyblueberry/mui-datagrid-full-edit](https://github.com/prettyblueberry/mui-datagrid-full-edit)
 
