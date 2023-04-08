@@ -6,7 +6,7 @@ import {
     GridToolbarDensitySelector,
     GridToolbarExportContainer,
     GridCsvExportMenuItem,
-    GridPrintExportMenuItem,
+    // GridPrintExportMenuItem,
     GridToolbarFilterButton,
     GridToolbarQuickFilter
 } from "@mui/x-data-grid";
@@ -42,7 +42,7 @@ function DefaultToolbar(props) {
             <GridToolbarExportContainer>
                 <GridExcelExportMenuItem columns={columns} />
                 <GridCsvExportMenuItem />
-                <GridPrintExportMenuItem />
+                {/*<GridPrintExportMenuItem />*/}
             </GridToolbarExportContainer>
             <Button color="primary" startIcon={<AddIcon />} onClick={handleClick}>
                 Add record

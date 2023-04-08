@@ -40,8 +40,8 @@ function handleExport(apiRef, columns) {
     });
 
     const workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, worksheet, "Sheet 1");
-    XLSX.writeFile(workbook, "datagrid", { compression: true });
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Sheet1");
+    XLSX.writeFile(workbook, document.title + ".xlsx", { compression: true });
 }
 
 export default function GridExcelExportMenuItem(props) {
