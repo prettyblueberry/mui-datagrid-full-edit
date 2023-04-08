@@ -212,7 +212,7 @@ Here is an example.
 The documentation of `@mui/x-data-grid` is [here](https://mui.com/x/react-data-grid/). While reading, please remember that it is `@mui/x-data-grid`, not `@mui/x-data-grid-pro` or `@mui/x-data-grid-premium`.
 
 
-## Please be a contributor !
+## Please Be a Contributor !
 This module is always integrated with the latest version of `@mui/x-data-grid`. But `@mui/x-data-grid` might be updated and I might miss it. So I want your help.
 
 And it aims to be not only easy way of `@mui/x-data-grid`, but also good abilities of `@mui/x-data-grid-pro` and `@mui/x-data-grid-premium`.
