@@ -82,8 +82,7 @@ const columns = [
     {
         field: "id",
         headerName: "Id",
-        width: 50,
-        hide: true,
+        width: 80,
         align: "center",
         type: "number",
         editable: true

@@ -1,3 +1,8 @@
+1.2.0 / 2023-04-10
+==================
+
+  * Update all dependencies to their latest versions: @mui/x-data-grid v5.17.25 -> v6.0.4
+
 1.1.0 / 2023-04-09
 ==================
 

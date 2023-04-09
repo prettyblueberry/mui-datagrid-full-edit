@@ -18,6 +18,8 @@ You can experience a good react data grid which is very **simple** to use but wi
 
 > `mui-datagrid-full-edit`'s toolbar has an export button to download data of grid as an `Excel` file (\*.`xlsx`). `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide it by license key, but `mui-datagrid-full-edit` provides it without any license key.
 
+> The current version of `mui-datagrid-full-edit` is dependent on **v6.0.4** of `@mui/x-data-grid`.
+
 ## How to Use
 
 ### Examples

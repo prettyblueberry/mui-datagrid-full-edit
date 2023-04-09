@@ -132,10 +132,10 @@ function FullFeaturedCrudGrid({columns, rows, defaultPageSize, onSaveRow, onDele
                 onRowEditStop={handleRowEditStop}
                 processRowUpdate={processRowUpdate}
                 onProcessRowUpdateError={onProcessRowUpdateError}
-                components={{
-                    Toolbar: DefaultToolbar
+                slots={{
+                    toolbar: DefaultToolbar
                 }}
-                componentsProps={{
+                slotProps={{
                     toolbar: { rows: internalRows, setRows: setInternalRows, setRowModesModel, createRowData, columns }
                 }}
                 experimentalFeatures={{ newEditingApi: true }}
@@ -162,8 +162,10 @@ FullFeaturedCrudGrid.defaultProps = {
     },
 
     initialState: {
-        columnVisibilityModel: {
-            id: false
+        columns: {
+            columnVisibilityModel: {
+                id: false
+            }
         }
     },
     autoHeight: true,
