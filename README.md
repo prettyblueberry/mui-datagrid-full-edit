@@ -110,12 +110,12 @@ import FullEditDataGrid from "mui-datagrid-full-edit";
     {
       id: 1,
       title: "Cycle-Depot",
-      dateCreated: "2023-03-09",
+      dateCreated: new Date("2023-03-09"),
     },
     {
       id: 2,
       title: "Top Lowrider",
-      dateCreated: "2023-03-09",
+      dateCreated: new Date("2023-03-09"),
     },
   ];
   ```
