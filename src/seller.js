@@ -40,6 +40,8 @@ const saveRow = (row) => {
 
     //virtual axios
     return new Promise((resolve, reject) => {
+        if(row.isNew) rows.push(row);
+        else rows = rows.map(r => r.id === row.id ? row : r);
         resolve({ data: row });
     });
 };
@@ -51,12 +53,15 @@ const deleteRow = (rowId) => {
     //virtual axios
     return new Promise((resolve, reject) => {
         const deletedRow = rows.find((r) => r.id === rowId);
+        rows = rows.filter(r => r.id !== rowId);
         resolve({ data: deletedRow });
     });
 };
 
-export default {
+const SellerController = {
     getAll,
     saveRow,
     deleteRow
 };
+
+export default SellerController;
