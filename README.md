@@ -4,6 +4,7 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/mui-datagrid-full-edit.svg)](https://www.npmjs.com/package/mui-datagrid-full-edit)
 [![NPM License](https://img.shields.io/npm/l/mui-datagrid-full-edit.svg?style=flat)](https://github.com/prettyblueberry/mui-datagrid-full-edit/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues-raw/prettyblueberry/mui-datagrid-full-edit.svg?maxAge=25000)](https://github.com/prettyblueberry/mui-datagrid-full-edit/issues)
+<img src="https://komarev.com/ghpvc/?username=prettyblueberry&label=stats&color=0e75b6&style=flat" alt="stats"/>
 
 [//]: # "[![npm](https://img.shields.io/github/stars/prettyblueberry/mui-datagrid-full-edit.svg)](https://github.com/prettyblueberry/mui-datagrid-full-edit)"
 [//]: # "[![fork](https://img.shields.io/github/forks/prettyblueberry/mui-datagrid-full-edit.svg)](https://github.com/prettyblueberry/mui-datagrid-full-edit/fork)"
