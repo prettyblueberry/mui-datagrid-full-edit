@@ -1,3 +1,10 @@
+1.2.3 / 2023-04-11
+==================
+
+  * add a contributor: Aashutosh Poudel
+  * add .npmignore
+  * fix text bug: Download Excel -> Download `as` Excel
+
 1.2.1 / 2023-04-10
 ==================
 
