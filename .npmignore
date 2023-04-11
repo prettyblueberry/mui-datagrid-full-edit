@@ -1,0 +1,7 @@
+/.idea
+/src
+/public
+package-lock.json
+npm-error.log
+yarn.lock
+yarn-error.log
