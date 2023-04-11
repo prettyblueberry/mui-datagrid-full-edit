@@ -1,6 +1,6 @@
 {
   "name": "mui-datagrid-full-edit",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A full functioned react MUI grid component with CRUD and an easy way of @mui/x-data-grid",
   "private": false,
   "repository": "https://github.com/prettyblueberry/mui-datagrid-full-edit.git",
@@ -8,6 +8,12 @@
     "name": "Blueberry",
     "url": "https://github.com/prettyblueberry"
   },
+  "contributors": [
+    {
+      "name": "Aashutosh Poudel",
+      "url": "https://github.com/atosh502"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
