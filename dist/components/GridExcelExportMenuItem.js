@@ -59,5 +59,5 @@ function GridExcelExportMenuItem(props) {
       // Hide the export menu after the export
       hideMenu === null || hideMenu === void 0 ? void 0 : hideMenu();
     }
-  }, "Download Excel");
+  }, "Download as Excel");
 }

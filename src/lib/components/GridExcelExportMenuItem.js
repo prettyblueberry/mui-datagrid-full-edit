@@ -56,7 +56,7 @@ export default function GridExcelExportMenuItem(props) {
                 hideMenu?.();
             }}
         >
-            Download Excel
+            Download as Excel
         </MenuItem>
     );
 }
