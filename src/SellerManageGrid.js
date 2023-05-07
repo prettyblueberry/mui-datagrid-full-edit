@@ -29,6 +29,8 @@ export default function SellerManageGrid() {
     }, []);
 
     const onSaveRow = (id, updatedRow, oldRow, oldRows) => {
+        console.log(updatedRow); 
+
         sellerController
             .saveRow(updatedRow)
             .then((res) => {
