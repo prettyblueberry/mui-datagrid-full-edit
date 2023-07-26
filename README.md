@@ -231,8 +231,8 @@ And it aims to be not only easy way of `@mui/x-data-grid`, but also having usefu
 
 GitHub Repository: [https://github.com/prettyblueberry/mui-datagrid-full-edit](https://github.com/prettyblueberry/mui-datagrid-full-edit)
 
-## Author: Blueberry
+## Contact
 
-[Blueberry's GitHub](https://github.com/prettyblueberry)
+[Its author's GitHub](https://github.com/prettyblueberry)
 
-[Contact Blueberry](https://form.jotform.com/230442827812353)
+[Contact to the author](https://alt.jotfor.ms/prettyblueberry52702/contact-from-github)
