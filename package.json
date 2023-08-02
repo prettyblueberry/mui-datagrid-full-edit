@@ -1,6 +1,6 @@
 {
   "name": "mui-datagrid-full-edit",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "A full functioned react MUI grid component with CRUD and an easy way of @mui/x-data-grid",
   "private": false,
   "repository": "https://github.com/prettyblueberry/mui-datagrid-full-edit.git",
