@@ -29,6 +29,8 @@ export default function SellerManageGrid() {
     }, []);
 
     const onSaveRow = (id, updatedRow, oldRow, oldRows) => {
+        console.log(updatedRow); 
+
         sellerController
             .saveRow(updatedRow)
             .then((res) => {
@@ -53,6 +55,8 @@ export default function SellerManageGrid() {
     };
 
     const createRowData = (rows) => {
+        console.log(rows); 
+
         const newId = Math.max(...rows.map((r) => (r.id ? r.id : 0) * 1)) + 1;
         const newNo = Math.max(...rows.map((r) => (r.no ? r.no : 0) * 1)) + 1;
         return { id: newId, no: newNo };

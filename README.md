@@ -2,12 +2,11 @@
 
 [![NPM Version](https://img.shields.io/npm/v/mui-datagrid-full-edit.svg)](https://www.npmjs.com/package/mui-datagrid-full-edit)
 [![NPM Downloads](https://img.shields.io/npm/dt/mui-datagrid-full-edit.svg)](https://www.npmjs.com/package/mui-datagrid-full-edit)
-[![NPM License](https://img.shields.io/npm/l/mui-datagrid-full-edit.svg?style=flat)](https://github.com/prettyblueberry/mui-datagrid-full-edit/blob/main/LICENSE)
+[![npm](https://img.shields.io/github/stars/prettyblueberry/mui-datagrid-full-edit.svg)](https://github.com/prettyblueberry/mui-datagrid-full-edit)
+[![fork](https://img.shields.io/github/forks/prettyblueberry/mui-datagrid-full-edit.svg)](https://github.com/prettyblueberry/mui-datagrid-full-edit/fork)
 [![Issues](https://img.shields.io/github/issues-raw/prettyblueberry/mui-datagrid-full-edit.svg?maxAge=25000)](https://github.com/prettyblueberry/mui-datagrid-full-edit/issues)
 [![stats](https://komarev.com/ghpvc/?username=prettyblueberry&label=stats&color=0e75b6&style=flat)](https://github.com/prettyblueberry/mui-datagrid-full-edit)
-
-[//]: # "[![npm](https://img.shields.io/github/stars/prettyblueberry/mui-datagrid-full-edit.svg)](https://github.com/prettyblueberry/mui-datagrid-full-edit)"
-[//]: # "[![fork](https://img.shields.io/github/forks/prettyblueberry/mui-datagrid-full-edit.svg)](https://github.com/prettyblueberry/mui-datagrid-full-edit/fork)"
+[![NPM License](https://img.shields.io/npm/l/mui-datagrid-full-edit.svg?style=flat)](https://github.com/prettyblueberry/mui-datagrid-full-edit/blob/main/LICENSE)
 
 ## Overview
 
@@ -15,7 +14,7 @@
 
 It provides an easy way to use `@mui/x-data-grid`. If you think `@mui/x-data-grid` would be good for your admin page but find it a bit difficult, `mui-datagrid-full-edit` would be the best choice. 
 
-By default, the grid has a paginator and abilities like hide column, export as CSV, export as Excel, and advanced filters. You can experience a good React data grid that is very **simple** to use but with **full functionality**.
+It can offer you a great React data grid that is easy to use but comes with full functionality. It comes with features such as pagination, column hiding, CSV and Excel export options, and advanced filtering by default.
 
 > `mui-datagrid-full-edit`'s toolbar has an export button to download grid data as an `Excel` file (\*.`xlsx`). `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide this feature for a license fee, but `mui-datagrid-full-edit` provides it at no cost.
 
@@ -233,8 +232,8 @@ And it aims to be not only easy way of `@mui/x-data-grid`, but also having usefu
 
 GitHub Repository: [https://github.com/prettyblueberry/mui-datagrid-full-edit](https://github.com/prettyblueberry/mui-datagrid-full-edit)
 
-## Author: Blueberry
+## Contact
 
-[Blueberry's GitHub](https://github.com/prettyblueberry)
+[Its author's GitHub](https://github.com/prettyblueberry)
 
-[Contact Blueberry](https://form.jotform.com/230442827812353)
+[Contact to the author](https://alt.jotfor.ms/prettyblueberry52702/contact-from-github)

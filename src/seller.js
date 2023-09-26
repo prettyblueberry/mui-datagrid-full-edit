@@ -35,6 +35,8 @@ const getAll = () => {
 };
 
 const saveRow = (row) => {
+    console.log(row); 
+
     //real axios
     // return axios.patch('/seller', row);
 
@@ -47,6 +49,7 @@ const saveRow = (row) => {
 };
 
 const deleteRow = (rowId) => {
+    console.log(rowId); 
     //real axios
     // return axios.delete(`/seller/${rowId}`);
 
