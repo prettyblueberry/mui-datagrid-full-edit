@@ -11,15 +11,16 @@
 
 ## Overview
 
-`mui-datagrid-full-edit` is a full functioned grid component with CRUD. But you can use it very simply with few props settings.
+`mui-datagrid-full-edit` is a fully functional grid component with create, read, update and delete (CRUD) functionality. However, you can use it very simply with just a few prop settings.
 
-It is an easy way of `@mui/x-data-grid`. If you're thinking `@mui/x-data-grid` is good for your admin page but difficult a bit, `mui-datagrid-full-edit` would be the best choice for you.
+It provides an easy way to use `@mui/x-data-grid`. If you think `@mui/x-data-grid` would be good for your admin page but find it a bit difficult, `mui-datagrid-full-edit` would be the best choice. 
 
-You can experience a good react data grid which is very **simple** to use but with **full functions**. By default, the grid has a paginator and abilities like hide-column, export-as-CSV, export-as-excel, advanced-filters.
+By default, the grid has a paginator and abilities like hide column, export as CSV, export as Excel, and advanced filters. You can experience a good React data grid that is very **simple** to use but with **full functionality**.
 
-> `mui-datagrid-full-edit`'s toolbar has an export button to download data of grid as an `Excel` file (\*.`xlsx`). `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide it by license key, but `mui-datagrid-full-edit` provides it without any license key.
+> `mui-datagrid-full-edit`'s toolbar has an export button to download grid data as an `Excel` file (\*.`xlsx`). `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide this feature for a license fee, but `mui-datagrid-full-edit` provides it at no cost.
 
-> The current version of `mui-datagrid-full-edit` is dependent on **v6.0.4** of `@mui/x-data-grid`.
+> The current version of `mui-datagrid-full-edit` depends on **v6.0.4** of `@mui/x-data-grid`.
+
 
 ## How to Use
 
@@ -65,7 +66,8 @@ import FullEditDataGrid from "mui-datagrid-full-edit";
 
 #### Props
 
-- `columns` (Array): Definition of grid header. It is same as `@mui/x-data-grid`and the documentation is [here](https://mui.com/x/react-data-grid/column-definition/).
+- `columns` (Array): Definition of grid header. It is the same as `@mui/x-data-grid` and the documentation is [here](https://mui.com/x/react-data-grid/column-definition/).
+
 
   Here is an example of `columns`.
 
