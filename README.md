@@ -197,6 +197,21 @@ import FullEditDataGrid from "mui-datagrid-full-edit";
     return { id: newId, title: "Default Name" };
   };
   ```
+  
+- `noActionColumn` (boolean): hide/show action column.
+  ```javascript
+  /*
+      a grid without an action column
+  */
+  <FullEditDataGrid
+      columns={columns}
+      rows={rows}
+      onSaveRow={onSaveRow}
+      onDeleteRow={onDeleteRow}
+      createRowData={createRowData}
+      noActionColumn        
+  />
+  ```
 
 ### Advanced Usage
 

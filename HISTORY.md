@@ -1,3 +1,8 @@
+1.2.6 / 2024-03-27
+==================
+
+  * allow to remove an action column using `noActionColumn` prop
+
 1.2.3 / 2023-04-11
 ==================
 
