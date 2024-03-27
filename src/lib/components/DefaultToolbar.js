@@ -15,8 +15,6 @@ import Button from "@mui/material/Button";
 import AddIcon from "@mui/icons-material/Add";
 
 function DefaultToolbar(props) {
-    console.log(props); 
-
     const {rows, setRows, setRowModesModel, columns, createRowData } = props;
 
     const handleClick = () => {
