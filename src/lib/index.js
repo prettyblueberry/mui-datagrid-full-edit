@@ -13,7 +13,7 @@ import {
 import DefaultToolbar from "./components/DefaultToolbar";
 import {useEffect} from "react";
 
-function FullFeaturedCrudGrid({columns, rows, defaultPageSize, onSaveRow, onDeleteRow, createRowData, noActionColumn, onProcessRowUpdateError, ...props}) {
+function FullFeaturedCrudGrid({columns, rows, defaultPageSize, onSaveRow, onDeleteRow, createRowData, noActionColumn, onProcessRowUpdateError, slotToolbar, ...props}) {
     const [internalRows, setInternalRows] = React.useState(rows);
     const [rowModesModel, setRowModesModel] = React.useState(
         {}
@@ -133,10 +133,10 @@ function FullFeaturedCrudGrid({columns, rows, defaultPageSize, onSaveRow, onDele
                 processRowUpdate={processRowUpdate}
                 onProcessRowUpdateError={onProcessRowUpdateError}
                 slots={{
-                    toolbar: props.slotToolbar
+                    toolbar: slotToolbar ? slotToolbar : DefaultToolbar,
                 }}
                 slotProps={{
-                    toolbar: { rows: internalRows, setRows: setInternalRows, setRowModesModel, createRowData, columns }
+                    toolbar: { rows: internalRows, setRows: setInternalRows, setRowModesModel, createRowData, columns },
                 }}
                 experimentalFeatures={{ newEditingApi: true }}
 
@@ -156,8 +156,6 @@ FullFeaturedCrudGrid.defaultProps = {
     onDeleteRow: (id, oldRow/*, rows*/) => {
         console.log("delete row", oldRow);
     },
-
-    slotToolbar: DefaultToolbar,
 
     noActionColumn: false,
 
