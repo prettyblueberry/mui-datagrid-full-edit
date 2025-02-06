@@ -1,3 +1,9 @@
+1.3.1 / 2025-02-06
+==================
+
+  * fix bug of slotToolbar slot: no default toolbar
+  
+
 1.3.0 / 2025-02-06
 ==================
 
