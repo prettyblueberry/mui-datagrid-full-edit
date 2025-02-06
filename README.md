@@ -17,7 +17,7 @@ It can offer you a great React data grid that is easy to use but comes with full
 
 > `mui-datagrid-full-edit`'s toolbar has an export button to download grid data as an `Excel` file (\*.`xlsx`). `@mui/x-data-grid-pro` and `@mui/x-data-premium` provide this feature for a license fee, but `mui-datagrid-full-edit` provides it at no cost.
 
-> The current version of `mui-datagrid-full-edit` depends on **v6.0.4** of `@mui/x-data-grid`.
+> The current version of `mui-datagrid-full-edit` depends on **v7.25.0** of `@mui/x-data-grid`.
 
 
 ## How to Use
@@ -281,8 +281,12 @@ And it aims to be not only easy way of `@mui/x-data-grid`, but also having usefu
 
 GitHub Repository: [https://github.com/prettyblueberry/mui-datagrid-full-edit](https://github.com/prettyblueberry/mui-datagrid-full-edit)
 
-## Contact
+If you find this module helpful, please consider starring it on GitHub so others can see its value. You can also [buy me a coffee](https://form.jotform.com/250341701777354) to support my work.
+
+## Links
 
 [Its author's GitHub](https://github.com/prettyblueberry)
 
 [Contact to the author](https://alt.jotfor.ms/prettyblueberry52702/contact-from-github)
+
+[Buy the author a coffee](https://form.jotform.com/250341701777354)
