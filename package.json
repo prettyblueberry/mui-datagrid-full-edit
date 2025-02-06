@@ -66,6 +66,16 @@
     "react-scripts": "5.0.1"
   },
   "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./GridExcelExportMenuItem": {
+      "import": "./dist/components/GridExcelExportMenuItem.js",
+      "require": "./dist/components/GridExcelExportMenuItem.js"
+    }
+  },
   "module": "dist/index.js",
   "keywords": [
     "datagrid",
