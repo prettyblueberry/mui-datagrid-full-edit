@@ -1,3 +1,12 @@
+1.3.0 / 2025-02-06
+==================
+
+  * add a slotToolbar prop
+  * keep two files in the release package for the custom toolbar examples in the updated readme.
+    * /src/lib/components/DefaultToolbar.js
+    * /src/CustomToolbar.js
+  
+
 1.2.6 / 2024-03-27
 ==================
 
