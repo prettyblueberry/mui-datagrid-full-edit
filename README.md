@@ -211,6 +211,41 @@ import FullEditDataGrid from "mui-datagrid-full-edit";
       noActionColumn        
   />
   ```
+  
+- `slotToolbar` (ReactComponent): customized toolbar component. You can customize the default toolbar of `mui-datagrid-full-edit` by passing your own component to the `slotToolbar` prop. This prop takes a React component that will be rendered in place of the default toolbar.
+
+  #### How to Create a Custom Toolbar
+  
+  1. Copy the default toolbar code:  
+     Look at the [default toolbar source](./src/lib/components/DefaultToolbar.js) to see how the internal toolbar is implemented. You can copy and modify its code to suit your needs.
+  
+  2. Customize the logic:
+     - Add or remove buttons (e.g., hide the "Add" button if you don’t need to create new rows).
+     - Include any additional elements you want (e.g., custom export buttons, filters, or other UI controls).
+     - If you wish to include Excel export functionality, you must import `GridExcelExportMenuItem` from `"mui-datagrid-full-edit/GridExcelExportMenuItem"`.
+       
+     [Here](./src/CustomToolbar.js) is an example of a customized toolbar component - the component has no "Add" button.
+  
+  3. Use your custom toolbar:
+   ```jsx
+   import FullEditDataGrid from "mui-datagrid-full-edit";
+   import CustomToolbar from "./CustomToolbar";
+
+   const ExampleGrid = () => {
+     return (
+       <FullEditDataGrid
+         columns={columns}
+         rows={rows}
+         onSaveRow={onSaveRow}
+         onDeleteRow={onDeleteRow}
+         createRowData={createRowData}
+         slotToolbar={CustomToolbar}
+       />
+     );
+   };
+   export default ExampleGrid;
+  ```
+    
 
 ### Advanced Usage
 

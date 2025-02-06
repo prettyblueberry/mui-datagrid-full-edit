@@ -133,7 +133,7 @@ function FullFeaturedCrudGrid({columns, rows, defaultPageSize, onSaveRow, onDele
                 processRowUpdate={processRowUpdate}
                 onProcessRowUpdateError={onProcessRowUpdateError}
                 slots={{
-                    toolbar: DefaultToolbar
+                    toolbar: props.slotToolbar
                 }}
                 slotProps={{
                     toolbar: { rows: internalRows, setRows: setInternalRows, setRowModesModel, createRowData, columns }
@@ -156,6 +156,8 @@ FullFeaturedCrudGrid.defaultProps = {
     onDeleteRow: (id, oldRow/*, rows*/) => {
         console.log("delete row", oldRow);
     },
+
+    slotToolbar: DefaultToolbar,
 
     noActionColumn: false,
 
