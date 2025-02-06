@@ -1,8 +1,33 @@
+# Ignore IDE and other project folders not needed in the package
 /.idea
 /.github
-/src
 /public
 package-lock.json
 npm-error.log
 yarn.lock
 yarn-error.log
+
+# ---------------------------------------------
+# Ignore all of /src except files for readme...
+# ---------------------------------------------
+
+# 1) Ignore everything in /src
+src/**
+
+# 2) Re-include the src/lib folder itself (but not its contents yet)
+!src/lib/
+
+# 3) Now ignore everything inside src/lib again
+src/lib/**
+
+# 4) Re-include the src/lib/components folder
+!src/lib/components/
+
+# 5) Ignore everything inside src/lib/components
+src/lib/components/**
+
+# 6) Finally, re-include DefaultToolbar.js
+!src/lib/components/DefaultToolbar.js
+
+# 7) Re-include CustomToolbar.js (at src/CustomToolbar.js)
+!src/CustomToolbar.js
